@@ -1,31 +1,30 @@
 h1 {
-    color: blue;
+  color: blue;
 }
 
 header {
-    width: 100%;
-    /* margin: 0, 100px, 0, 100px; */
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  /* margin: 0, 100px, 0, 100px; */
+  display: flex;
+  justify-content: center;
 }
 
 .container {
+  position: fixed;
+  /* ヘッダーを固定する */
+  top: 0;
+  /* 上部から配置の基準位置を決める */
 
-    position: fixed;
-    /* ヘッダーを固定する */
-    top: 0;
-    /* 上部から配置の基準位置を決める */
-
-    /* 左から配置の基準位置を決める */
-    width: 1720px;
-    /* ヘッダーの横幅を指定する */
-    height: 120px;
-    /* ヘッダーの高さを指定する */
-    background-color: #31a9ee;
-    /* ヘッダーの背景色を指定する */
-    color: #000000;
-    /* フォントの色を指定する */
-    display: flex;
+  /* 左から配置の基準位置を決める */
+  width: 1720px;
+  /* ヘッダーの横幅を指定する */
+  height: 120px;
+  /* ヘッダーの高さを指定する */
+  background-color: #31a9ee;
+  /* ヘッダーの背景色を指定する */
+  color: #000000;
+  /* フォントの色を指定する */
+  display: flex;
 }
 
 /* .container {
@@ -33,31 +32,30 @@ header {
 } */
 
 nav {
-    margin-left: auto;
-    height: 120px;
+  margin-left: auto;
+  height: 120px;
 
-    background-color: yellow;
+  background-color: yellow;
 
-    color: #000000;
+  color: #000000;
 
-    align-items: center;
-    display: flex;
-    width: 800px;
+  align-items: center;
+  display: flex;
+  width: 800px;
 }
 
 ul {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: red;
-    width: 100%;
-
+  display: flex;
+  justify-content: space-around;
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: red;
+  width: 100%;
 }
 
 li {
-    display: inline-block;
-    background-color: green;
+  display: inline-block;
+  background-color: green;
 }
 
 /*  align-items: center; */
