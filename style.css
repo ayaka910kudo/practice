@@ -15,4 +15,5 @@ nav{  margin-left: auto;
     background-color: yellow; /* ヘッダーの背景色を指定する */
     color: #000000; /* フォントの色を指定する */}
 
-ul {display: flex}
+ul {display: flex;
+    justify-content: space-between;}
